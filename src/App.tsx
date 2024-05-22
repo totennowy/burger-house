@@ -1,12 +1,12 @@
-import './styles/globals.scss';
+import Layout from './layout/Layout';
+import './assets/styles/globals.scss';
 
 function App() {
-
   return (
-    <>
-      ahoj
-    </>
-  )
+    <Layout>
+      content
+    </Layout>
+  );
 }
 
-export default App
+export default App;
