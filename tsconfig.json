@@ -18,7 +18,15 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "typeRoots": ["./node_modules/@types", "./types"],
+
+    "paths": {
+      "@variables": ["./src/assets/styles/variables"],
+      "@globals": ["./src/assets/styles/globals"],
+      "@images": ["./src/assets/images"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
