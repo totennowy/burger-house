@@ -1,0 +1,26 @@
+@import 'normalize.css/normalize.css';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 2000px;
+  overflow-x: hidden;
+  font-family: 'Platypi', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
