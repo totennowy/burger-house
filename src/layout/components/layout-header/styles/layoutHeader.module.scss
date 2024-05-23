@@ -1,11 +1,14 @@
+@import '@variables';
+
 .wrap {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 48px;
-  gap: 24px;
+  padding: 10px 48px;
+  gap: 4px;
+  background: $gold;
 
   .container_top {
     width: 100%;

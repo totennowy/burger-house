@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: flex-end;
     gap: 32px;
+    z-index: 99999;
 
     .menu_item {
       font-size: 20px;
