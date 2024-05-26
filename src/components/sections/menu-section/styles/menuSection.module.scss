@@ -1,0 +1,42 @@
+@import '@variables';
+
+.wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: $brown;
+  padding: 0 40px;
+
+  .text_first {
+    font-size: 28px;
+    font-weight: 700;
+    color: $brown;
+    background: $gold;
+    padding: 10px;
+  }
+
+  .text_second {
+    font-size: 60px;
+    font-weight: 900;
+  }
+
+  .text_third {
+    max-width: 1200px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .burger_menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+  }
+}
