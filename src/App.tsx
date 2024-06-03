@@ -3,6 +3,7 @@ import Layout from './layout/Layout';
 import HeroSection from './components/sections/hero-section/HeroSection';
 import PromoSection from './components/sections/promo-section/PromoSection';
 import MenuSection from './components/sections/menu-section/MenuSection';
+import EventSection from './components/sections/event-section/EventSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeroSection />
       <PromoSection />
       <MenuSection />
+      <EventSection />
     </Layout>
   );
 }
