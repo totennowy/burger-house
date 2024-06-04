@@ -29,20 +29,20 @@
       border-width: 2px;
       border-style: dashed;
       border-color: $brown;
-      font-size: 18px;
+      font-size: $font_s;
       text-transform: uppercase;
       margin-bottom: -20px;
     }
 
     .big_text {
-      font-size: 160px;
+      font-size: $font_xxl;
       font-weight: 900;
       text-shadow: 6px 6px 5px rgba(255, 255, 255, 0.507);
       margin-bottom: -20px;
     }
 
     .medium_text {
-      font-size: 80px;
+      font-size: $font_xl;
       font-weight: 900;
       text-shadow: 6px 6px 5px rgba(255, 255, 255, 0.507);
     }
