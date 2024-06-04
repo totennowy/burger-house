@@ -1,0 +1,100 @@
+@import '@variables';
+
+.btn_red {
+  background: $red;
+  background: linear-gradient(0deg, $red 0%, darken($red, 10%) 100%);
+  width: 100%;
+  line-height: 56px;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.5s ease;
+
+  span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: $white;
+    font-size: 20px;
+    font-weight: 900;
+    transition: color 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &:before,
+  &:after {
+    position: absolute;
+    content: '';
+    background: $red;
+    transition: all 0.5s ease;
+  }
+
+  &:before {
+    right: 0;
+    top: 0;
+    height: 0%;
+    width: 2px;
+  }
+
+  &:after {
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 2px;
+  }
+
+  &:hover {
+    background: transparent;
+    box-shadow: none;
+  }
+
+  &:hover:before {
+    height: 100%;
+  }
+
+  &:hover:after {
+    width: 100%;
+  }
+
+  span:before,
+  span:after {
+    position: absolute;
+    content: '';
+    background: $red;
+    transition: all 0.5s ease;
+  }
+
+  span:before {
+    left: 0;
+    bottom: 0;
+    width: 2px;
+    height: 0%;
+  }
+
+  span:after {
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+  }
+
+  span:hover:before {
+    height: 100%;
+  }
+
+  span:hover:after {
+    width: 100%;
+  }
+
+  &:hover span {
+    color: $red;
+  }
+}
