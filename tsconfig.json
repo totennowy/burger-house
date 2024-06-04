@@ -21,11 +21,13 @@
     "noFallthroughCasesInSwitch": true,
 
     "typeRoots": ["./node_modules/@types", "./types"],
+    "baseUrl": "./src",
 
     "paths": {
-      "@variables": ["./src/assets/styles/variables"],
-      "@globals": ["./src/assets/styles/globals"],
-      "@images": ["./src/assets/images"]
+      "@variables/*": ["assets/styles/variables/*"],
+      "@globals/*": ["assets/styles/globals/*"],
+      "@images/*": ["assets/images/*"],
+      "@commons/*": ["components/commons/*"]
     }
   },
   "include": ["src"],

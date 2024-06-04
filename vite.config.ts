@@ -8,7 +8,8 @@ export default defineConfig({
     alias: {
       '@variables': path.resolve(__dirname, 'src/assets/styles/variables'),
       '@globals': path.resolve(__dirname, 'src/assets/styles/globals'),
-      '@images': path.resolve(__dirname, 'src/assets/images')
+      '@images': path.resolve(__dirname, 'src/assets/images'),
+      '@commons': path.resolve(__dirname, 'src/components/commons')
     }
   },
   plugins: [react()]
