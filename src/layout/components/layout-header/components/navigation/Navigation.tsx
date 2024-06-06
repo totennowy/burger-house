@@ -6,13 +6,20 @@ const Navigation = () => {
   return (
     <nav className={styles.wrap}>
       <ul className={styles.menu}>
-        {navigationData.map((item, index) => {
+        {navigationData.map((item) => {
           return (
-            <li key={index} className={styles.menu_item}>
-              <Link to={item.id} spy={true} smooth={true} offset={-70} duration={500}>
+            <Link
+              key={item.label}
+              to={item.to}
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              <li key={item.label} className={styles.menu_item}>
                 {item.label}
-              </Link>
-            </li>
+              </li>
+            </Link>
           );
         })}
       </ul>

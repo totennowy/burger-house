@@ -1,19 +1,23 @@
 const navigationData = [
   {
     label: 'Home',
-    id: 'home'
+    to: 'header-section'
   },
   {
     label: 'Menu',
-    id: 'menu'
+    to: 'menu-section'
   },
   {
-    label: 'Our Story',
-    id: 'story'
+    label: 'Event',
+    to: 'event-section'
   },
   {
-    label: 'Contact Us',
-    id: 'contact'
+    label: 'Reservation',
+    to: 'reservation-section'
+  },
+  {
+    label: 'Contact',
+    to: 'footer-section'
   }
 ];
 
