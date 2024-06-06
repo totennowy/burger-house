@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './styles/eventSection.module.scss';
 import BurgerImage from '@images/burger_event.png';
+import { Element } from 'react-scroll/modules';
 
 const EventSection = () => {
   return (
     <section className={styles.wrap}>
-      <div className={styles.container}>
+      <Element name="event-section" className={styles.container}>
         <div className={styles.box_left}>
           <p className={styles.text_medium}>DISCOVER</p>
           <p className={styles.text_large}>UPCOMING EVENT</p>
@@ -19,7 +20,7 @@ const EventSection = () => {
         <div className={styles.box_right}>
           <img src={BurgerImage} alt="burger with fries" />
         </div>
-      </div>
+      </Element>
     </section>
   );
 };

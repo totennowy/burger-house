@@ -6,15 +6,16 @@ import InstagramIcon from '@images/InstagramIcon.svg';
 import FacebookIcon from '@images/FacebookIcon.svg';
 import TwitterIcon from '@images/TwitterIcon.svg';
 import WhatsAppIcon from '@images/WhatsAppIcon.svg';
+import { Element } from 'react-scroll/modules';
 
 const LayoutFooter = () => {
   return (
     <footer className={styles.wrap}>
-      <div className={styles.container}>
+      <Element name="footer-section" className={styles.container}>
         <div className={styles.footer_top}>
           <img src={logo} alt="page logo white" />
         </div>
-
+        footer-section
         <div className={styles.footer_middle}>
           <p className={styles.burger_info}>
             Tantalizing your taste buds with exotic twists and fusions, the legends of the food
@@ -36,12 +37,11 @@ const LayoutFooter = () => {
             </div>
           </div>
         </div>
-
         <div className={styles.footer_bottom}>
           <p>© Burger House 2020. All rights reserved.</p>
           <div className={styles.icons_box}>
             <a href="#">
-              <img src={InstagramIcon} alt="imtagram icon" className={styles.icon} />
+              <img src={InstagramIcon} alt="instagram icon" className={styles.icon} />
             </a>
             <a href="#">
               <img src={FacebookIcon} alt="facebook icon" className={styles.icon} />
@@ -54,7 +54,7 @@ const LayoutFooter = () => {
             </a>
           </div>
         </div>
-      </div>
+      </Element>
     </footer>
   );
 };

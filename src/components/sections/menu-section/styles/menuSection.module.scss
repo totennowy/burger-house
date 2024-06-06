@@ -1,42 +1,50 @@
 @import '@variables';
 
-.wrap {
+.section_wrap {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   color: $brown;
   padding: 0 40px;
 
-  .text_first {
-    font-size: $font_m;
-    font-weight: 700;
-    color: $brown;
-    background: $gold;
-    padding: 10px;
-  }
-
-  .text_second {
-    font-size: $font_xl;
-    font-weight: 900;
-  }
-
-  .text_third {
-    max-width: 1200px;
-    line-height: 40px;
-    font-size: $font_s;
-    font-weight: 300;
-    text-align: center;
-  }
-
-  .burger_menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+  .content_wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    padding-top: 40px;
+    gap: 20px;
+
+    .text_first {
+      font-size: $font_m;
+      font-weight: 700;
+      color: $brown;
+      background: $gold;
+      padding: 10px;
+    }
+
+    .text_second {
+      font-size: $font_xl;
+      font-weight: 900;
+    }
+
+    .text_third {
+      max-width: 1200px;
+      line-height: 40px;
+      font-size: $font_s;
+      font-weight: 300;
+      text-align: center;
+    }
+
+    .burger_menu {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding-top: 40px;
+    }
   }
 }
