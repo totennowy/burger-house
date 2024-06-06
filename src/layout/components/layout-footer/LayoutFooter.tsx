@@ -15,7 +15,6 @@ const LayoutFooter = () => {
         <div className={styles.footer_top}>
           <img src={logo} alt="page logo white" />
         </div>
-        footer-section
         <div className={styles.footer_middle}>
           <p className={styles.burger_info}>
             Tantalizing your taste buds with exotic twists and fusions, the legends of the food
