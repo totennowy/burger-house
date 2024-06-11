@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   background: $gold;
-  padding: 48px;
+  padding: 0 48px 16px 48px;
   position: relative;
 
   .content_wrap {
@@ -63,8 +63,160 @@
 
       .burger_img {
         position: absolute;
-        top: 50px;
+        top: 20px;
         right: 0px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  .section_wrap {
+    padding: 40px;
+
+    .content_wrap {
+      .container_left {
+        .small_text {
+          font-size: 16px;
+        }
+
+        .big_text {
+          font-size: 130px;
+        }
+
+        .medium_text {
+          font-size: 56px;
+        }
+      }
+
+      .container_right {
+        .burger_img {
+          position: absolute;
+          top: 0px;
+          right: -40px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .section_wrap {
+    .content_wrap {
+      .container_right {
+        max-height: 440px;
+
+        .burger_img {
+          position: absolute;
+          top: 0px;
+          right: -40px;
+          max-height: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .section_wrap {
+    .content_wrap {
+      .container_left {
+        .small_text {
+          font-size: 14px;
+        }
+
+        .big_text {
+          font-size: 110px;
+        }
+
+        .medium_text {
+          font-size: 52px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .section_wrap {
+    padding: 20px;
+
+    .content_wrap {
+      .container_left {
+        margin-top: -100px;
+      }
+
+      .container_right {
+        max-height: 400px;
+
+        .burger_img {
+          top: 0px;
+          right: -10px;
+          max-height: 360px;
+          opacity: 0.7;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .section_wrap {
+    .content_wrap {
+      .container_right {
+        max-height: 320px;
+
+        .burger_img {
+          max-height: 260px;
+          top: 40px;
+          right: -20px;
+        }
+      }
+
+      .container_left {
+        .small_text {
+          font-size: 12px;
+        }
+
+        .big_text {
+          font-size: 80px;
+        }
+
+        .medium_text {
+          font-size: 46px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .section_wrap {
+    .content_wrap {
+      .container_right {
+        max-height: 280px;
+
+        .burger_img {
+          max-height: 220px;
+          top: 30px;
+          right: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .section_wrap {
+    .content_wrap {
+      .container_right {
+        max-height: 280px;
+
+        .burger_img {
+          max-height: 200px;
+          top: 30px;
+          right: 10px;
+        }
       }
     }
   }
