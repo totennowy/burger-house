@@ -18,7 +18,7 @@ const EventSection = () => {
           </p>
         </div>
         <div className={styles.box_right}>
-          <img src={BurgerImage} alt="burger with fries" />
+          <img src={BurgerImage} alt="burger with fries" className='box_right_img'/>
         </div>
       </Element>
     </section>
