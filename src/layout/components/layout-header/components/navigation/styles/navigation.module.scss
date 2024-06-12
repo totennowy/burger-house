@@ -48,3 +48,49 @@
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .menu {
+      .menu_item {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+
+    .menu {
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+      justify-content: center;
+      .menu_item {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .wrap {
+    .menu {
+      gap: 22px;
+      .menu_item {
+        font-size: 12px;
+      }
+    }
+  }
+}

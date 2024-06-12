@@ -8,3 +8,14 @@
   font-size: $font_m;
   color: $brown;
 }
+
+@media (max-width: 1000px) {
+  .wrap {
+    font-size: 20px;
+    text-align: right;
+
+    .img_delivery {
+      width: 40px;
+    }
+  }
+}

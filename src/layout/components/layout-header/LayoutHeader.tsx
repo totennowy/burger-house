@@ -44,7 +44,7 @@ const LayoutHeader = () => {
     <header className={`${styles.header_wrap} ${isSticky ? styles.sticky : ''}`} id="header-wrap">
       <Element name="header-section" className={styles.content_wrap}>
         <div className={styles.container_top}>
-          <img src={logo} alt="burger logo" />
+          <img src={logo} alt="burger logo" className={styles.img_logo} />
           {!isSticky && <Delivery />}
         </div>
         <div className={styles.container_bottom}>
