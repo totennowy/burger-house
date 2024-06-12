@@ -25,11 +25,11 @@ const LayoutFooter = () => {
           </p>
           <div className={styles.contact}>
             <div className={styles.info_box}>
-              <img src={LocationIcon} alt="location icon" />
+              <img src={LocationIcon} alt="location icon" className={styles.footer_icon} />
               <p>GRANTSVILLE 307 E Main St Grantsville, UT 84029</p>
             </div>
             <div className={styles.info_box}>
-              <img src={EmailIcon} alt="email icon" />
+              <img src={EmailIcon} alt="email icon" className={styles.footer_icon} />
               <p>
                 <a href="mailto:burgerhouse11@gmail.com">burgerhouse11@gmail.com</a>
               </p>
