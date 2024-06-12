@@ -18,3 +18,18 @@
     color: $black;
   }
 }
+
+@media (max-width: 1000px) {
+  .wrap {
+    grid-template-columns: 1fr;
+
+    input {
+      width: 100%;
+      border: 2px solid $gray;
+      border-radius: 4px;
+      height: 56px;
+      padding: 4px 12px;
+      color: $black;
+    }
+  }
+}
